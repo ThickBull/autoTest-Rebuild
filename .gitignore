@@ -1,3 +1,17 @@
+# 过滤数据库文件、sln解决方案文件、配置文件
+*.pyc
+*.DS_Store
+*.iml
+*.xml
+scripts/scripts
+scripts/Temp.py
+# 过滤文件夹Debug,Release,obj
+report/
+resources/
+#reportResource/
+disposable/
+/.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
