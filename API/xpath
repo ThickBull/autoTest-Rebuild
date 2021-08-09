@@ -1,0 +1,25 @@
+
+# 获取控件信息
+d.xpath("...").info
+
+# click单击控件  long_click 长按
+d.xpath("...").click()
+
+# 获取/设置文本  注意xpath路径不能断层 否则api无效
+d.xpath("...").get_text()
+
+# 存在
+d.xpath("...").exists
+
+# 直接点击 无需等待
+d.xpath("...").click_nowait
+
+# 点击控件 隐式等待
+d.xpath("...").click(timeout=2)
+
+# 点击控件 若存在即点击 返回True False
+d.xpath("...").click_exists(timeout=2)
+
+#
+
+

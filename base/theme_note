@@ -1,0 +1,19 @@
+1, 备用代码收集
+    # a = VAR.scripts_module_miui11.split(",")
+    # print(a)
+    # for k in a:
+    #     scripts_dir = os.path.join(settings.BASE_DIR, "scripts", settings.Var['scripts_dir'], k)
+    #     print(scripts_dir)
+    #     scripts = utils.get_all_files(scripts_dir)
+    #     print(scripts)
+
+    # b = os.listdir('/Users/qm/PycharmProjects/autoText-rebuild/scripts/theme_MIUI11_1.7.1.0/bell')
+    # b.sort(key=lambda x: int(x[:-3]))
+    # print(b)
+
+    # c = ['Bell_C3361157.py', 'Bell_C3361163.py', 'Bell_C3361156.py', 'Bell_C3361162.py', 'Bell_C3361159.py', 'Bell_C3361158.py', 'Bell_C3361155.py', 'Bell_C3361161.py', 'Bell_C3361154.py', 'Bell_C3361160.py', 'Theme_autoinit.py']
+    # c.sort(key=lambda x: x.split('.py')[0])
+    # print(c)
+
+imdata = "/Users/qm/PycharmProjects/autoTest-Rebuild/resources/221597745936_.pic.jpg"
+        self.d.image.click(imdata, timeout=2.0)  # 图像识别 可用 但要求匹配图片的清晰度较高
